@@ -1,6 +1,6 @@
 // inizializzazione delle variabili
 const btnStart = document.getElementById("start_game");
-const arraySimonSaysFiveNum = createArrayNumRandom ();
+const arraySimonSaysFiveNum = createArrayFiveNumRandom ();
 // Visualizzare in pagina 5 numeri casuali.
 
 let elSimonSays = document.getElementById("simon_says");
@@ -17,7 +17,7 @@ elSimonSays.innerHTML = arraySimonSaysFiveNum;
 
 // FUNZIONI
 // funzione per creare un array di 5 numeri casuali da 1 a 100
-function createArrayNumRandom () {
+function createArrayFiveNumRandom () {
     const arrayNumRandom = [];
     for ( let i = 0; i < 5; i++ )  {
         
